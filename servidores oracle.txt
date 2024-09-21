@@ -1,0 +1,40 @@
+Servidores de Base de Datos:
+10.7.1.78	Ubicación: ONAPREHP05- Cuchilla 7. 62GB RAM, usada 24GB. espacio (40GB /,32GB /dev/sh, 78GB /home, 477M /boot, 300GB /ExportsProd), 24 CPU. Hostname = onaprehp05
+10.7.1.80	Ubicación: ONAPREHP06- Cuchilla 8. 62GB RAM, usada 39GB. espacio (40GB /, 32GB /dev/shm, 477M /boot, 78GB /home, 300GB /ExportsProd), 24 CPU. Hostname = onaprehp06
+Servidores de Oracle  y Java:
+10.7.1.112	Ubicacion: Proxmox ODT02. 37GB RAM, usada 11GB. 21GB /, 3.8GB /run, 21GB /dev/disk.. 8.3GB /run/shm. 20 CPU. Hostname = onapreapp02
+10.7.1.118	Ubicación: Proxmox ODT02. 12GB RAM, usada 12GB. 20GB /, 7.9GB /dev/shm, 477M /boot, 43GB /home. 8 CPU. Hostname = onaprerep01 
+10.7.1.122	Ubicación: Proxmox ODT02. 37GB RAM, usada 7.5GB. espacio( 21GB /, 10M /dev, 3,8GB /run, 21GB /dev/disk, 5,0M /run/lock, 8,3GB /run/shm) 12 CPU. Hostname = sispre-desa
+10.7.1.146	Ubicación: Proxmox ODT02. 37GB RAM, usada 9,3GB. 21GB /, 3,8GB /dev, 21GB /, 8,3GB /run/shm. 12 CPU. Hostname = onapreapp05
+
+Servidores Oracle
+
+IP	Host	Producción/dearrollo	Servicio	Localización	
+
+10.7.1.78 ONAPREHP05 Desarrollo	?	Oracle RAC	Cuchilla 7 Bahía 7
+10.7.1.80 ONAPREHP06 Desarrollo?	Oracle RAC	Cuchilla 8 Bahia 8
+10.7.1.90 onaprehp-bd ?			?		?
+10.7.1.91 onaprehp-bd ?			?		?
+10.7.1.92 onaprehp-bd ?			?		?
+10.7.1.118 onaprerep01 Producción	Oracle Linux 5(Replica del original onaprerep01) Virtualizado en Proxmox (ODT02)
+10.7.1.119 onaprerep02 Desarrollo? 	ORACLE		Virtualizado en Proxmox (ODT02)
+10.7.1.136 Onaprerepdesa Desarrollo? 	Oracle 		?
+10.7.1.138 ONPBDdesa Desarrollo? 	Oracle(Servicio de Base de datos)		?
+10.7.1.171 onpvmbd01 	Produccion	Oracle(Servicio de Base de datos)		?
+10.7.1.172 onpvmbd02  Produccion	Oracle(Servicio de Base de datos)		?
+
+
+Servidores con weblogic
+
+http://onaprerep02:8888
+
+http://onaprerepdesa:8888
+http://onaprerep01:8888
+
+http://onaprerepdesa:7001
+
+
+
+Servidores de Base de Datos Oracle:
+
+10.7.1.78	Ubicación: ONAPREHP05- Cuchilla 7.

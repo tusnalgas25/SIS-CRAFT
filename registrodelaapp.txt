@@ -1,0 +1,7 @@
+El 07 de Septiembre al sistema que lleva por nombre Gestion-Sop:
+
+Se le creo los modelos y controladores de cliente, devices, tickets, repais, inventories 
+Se define las rutas en el archivo web.php
+Se creo la vista tickets.store
+Se descarga el paquete breeze y spatie
+se instala el paquete livewire
